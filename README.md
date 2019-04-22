@@ -1,4 +1,4 @@
-# ~~
+# Triple dash
 
 A simple command line utility to notify you when your command is done.
 
@@ -11,15 +11,23 @@ Only tested on Windows 10, but uses the cross-platform [node-notifier](https://w
 There is no reason to install this package as part of a project. Install it global instead.
 
 ```bash
-npm install ~~ --global
+npm install triple-dash --global
 ```
 
-After installation on Windows you will have to restart your command line to get things working. If `~~` does not work after that make sure the npm global installation folder is included in the Windows environment variable PATH.
+Windows: If `triple-dash` does not work after that make sure the npm global installation folder is included in the Windows environment variable PATH. Then restart the command line and try again.
 
 ## Usage
 
-Simply prefix any command with `~~`.
+Simply prefix any command with `---` or one of the aliases:
 
 ```bash
-~~ ping google.com
+--- ping google.com
+```
+
+```bash
+notify ping google.com
+```
+
+```bash
+hey ping google.com
 ```

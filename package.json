@@ -1,9 +1,13 @@
 {
-  "name": "~~",
+  "name": "triple-dash",
   "version": "1.0.0",
   "description": "Simple command line utility to notify you when your command is done",
-  "main": "index.js",
-  "repository": "https://github.com/Lakitna/tilde-tilde",
+  "repository": "https://github.com/Lakitna/triple-dash",
+  "bin": {
+    "---": "bin/---.js",
+    "notify": "bin/notify.js",
+    "hey": "bin/hey.js"
+  },
   "scripts": {},
   "keywords": [
     "toast",

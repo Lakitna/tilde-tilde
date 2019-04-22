@@ -1,0 +1,17 @@
+{
+  "name": "~~",
+  "version": "1.0.0",
+  "description": "Notify when your command is done",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [
+    "toast",
+    "windows",
+    "notification"
+  ],
+  "author": "Sander van Beek",
+  "license": "MIT",
+  "dependencies": {
+    "node-notifier": "^5.4.0"
+  }
+}

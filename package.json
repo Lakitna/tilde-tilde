@@ -1,13 +1,18 @@
 {
   "name": "~~",
   "version": "1.0.0",
-  "description": "Notify when your command is done",
+  "description": "Simple command line utility to notify you when your command is done",
   "main": "index.js",
+  "repository": "https://github.com/Lakitna/tilde-tilde",
   "scripts": {},
   "keywords": [
     "toast",
     "windows",
-    "notification"
+    "notification",
+    "cli",
+    "commandline",
+    "cmd",
+    "workflow"
   ],
   "author": "Sander van Beek",
   "license": "MIT",

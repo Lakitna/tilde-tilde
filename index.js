@@ -27,7 +27,10 @@ module.exports = (argv, title) => {
     subprocess.on('close', (code) => {
         notifier.notify({
             title: title,
-            message: `The command "${command}" finished in ${formatTime(new Date(new Date() - startTime))}.`,
+            message: `The command "${command}" finished in `
+                + formatTime(new Date(new Date() - startTime))
+                + ((code === 0) ? '' : ` with exit code ${code}`)
+                + '.',
             icon: icons[(code === 0) ? 'success' : 'fail'],
             sound: false,
         });

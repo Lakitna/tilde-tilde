@@ -1,6 +1,6 @@
 {
   "name": "triple-dash",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Simple command line utility to notify you when your command is done",
   "repository": "https://github.com/Lakitna/triple-dash",
   "bin": {
@@ -21,6 +21,6 @@
   "author": "Sander van Beek",
   "license": "MIT",
   "dependencies": {
-    "node-notifier": "^5.4.0"
+    "node-notifier": "^5.4.1"
   }
 }

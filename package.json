@@ -21,6 +21,6 @@
   "author": "Sander van Beek",
   "license": "MIT",
   "dependencies": {
-    "node-notifier": "^5.4.1"
+    "node-notifier": "^8.0.1"
   }
 }
